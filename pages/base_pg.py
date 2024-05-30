@@ -1,6 +1,6 @@
-import seleniumpagefactory
+from seleniumpagefactory import *
 
-class Base_Page():
+class BasePage(PageFactory):
     def __init__(self, driver):
         self.driver = driver
 
